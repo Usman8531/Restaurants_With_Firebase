@@ -1,0 +1,35 @@
+@import "./scss/bootstrap";
+@import "./scss/header";
+@import "./scss/Home";
+@import "./scss/Dashboard";
+@import "./scss/preloader";
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main {
+  flex: 1 0 auto;
+  background-color: #f3f2ef;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  // overflow-x: hidden;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+html,
+body {
+  scroll-behavior: smooth;
+}
+header {
+  background-color: #f3f2ef;
+}
+footer {
+  background-color: #f3f2ef;
+}

@@ -1,0 +1,92 @@
+.bg-delivery {
+    background-color: #ffd670;
+    color: #f07167;
+}
+.hero-section--text {
+    font-size: 4rem;
+    letter-spacing: 2px;
+    .your-city {
+        font-size: 4.5rem;
+    }
+}
+@media screen and (max-width: 480px) {
+    .hero-section-btn {
+        width: 100%;
+    }
+    .hero-section--text {
+        font-size: 3rem;
+        letter-spacing: 2px;
+        .your-city {
+            font-size: 3.5rem;
+        }
+    }
+    .card-text--hero---section {
+        font-size: 0.7rem !important;
+    }
+}
+@media screen and (max-width: 992px) {
+    .hero-section--text {
+        font-size: 3rem;
+        letter-spacing: 2px;
+        .your-city {
+            font-size: 3.5rem;
+        }
+    }
+    .hero-section--img {
+        width: 100%;
+        height: auto;
+    }
+}
+.hero-section--img {
+    align-items: end;
+    height: 70vh;
+}
+
+// ////////////////// ///////////// Food section   ///////////////////////////////////
+.food-section--heading {
+    border-bottom: 5px solid #f07167;
+    width: 15vw;
+}
+.carousel--top {
+    // background-color: rgba(255, 131, 0, 0.05);
+    height: auto;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none;
+}
+.carousel--top::-webkit-scrollbar {
+    display: none;
+}
+.items--card :hover {
+    cursor: pointer;
+}
+
+// //////////////////////////////Menu Section   ///////////////////////////   /\//////////////////
+.menu-card:hover {
+    background-color: #d6392d;
+    color: white !important;
+    .menu-card--content {
+        background-color: #ede0df !important;
+        color: black !important;
+    }
+    .icons-text {
+        color: #000 !important;
+    }
+}
+// .menu-card--content{
+//     background-color: #d6392d;
+// }
+.menu-card {
+    transition: all ease-in-out;
+}
+.menu-card--content {
+    transition: all ease-in-out;
+    color: white !important;
+}
+
+// ////////////////// ///////////// cart section   ///////////////////////////////////
+
+// .cart--card {
+//     position: fixed;
+//     right: 100% !important;
+//     top: 0;
+// }
